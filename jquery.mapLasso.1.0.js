@@ -8,6 +8,7 @@
  * Copyright: Copyright 2012 Chris Fetherston
  * License: MIT and GPL
  */
+
 (function($){
   $.mapLasso = function(el, options){
     // To avoid scope issues, use 'base' instead of 'this'
