@@ -2,7 +2,7 @@
   "name": "rub-map-lasso",
   "homepage": "https://github.com/farooqsah/map-lasso",
   "authors": [
-    "farooq <farooq.ahmed@rubiconglobal.com>"
+    "farooq"
   ],
   "description": "lasso for map",
   "main": "jquery.mapLasso.1.0.js",
