@@ -81,7 +81,7 @@
       }); 
 
       // assign a handler to cancel the lasso on keyup
-      $('body').keyup(lassoEscHandler).css('cursor', 'crosshair');
+      $('.map').keyup(lassoEscHandler).css('cursor', 'crosshair');
 
       google.maps.event.addListenerOnce(base.options.map, 'mousedown', function(event) {                    
         
@@ -168,7 +168,7 @@
     };
 
     base.endLasso = function() {
-      $('body').unbind('keyup', lassoEscHandler).css('cursor', 'default');
+      $('.map').unbind('keyup', lassoEscHandler).css('cursor', 'default');
       google.maps.event.clearListeners(base.options.map, 'mousemove'); // stop tracking cursor   
 
       // add the lassoed polygon          
